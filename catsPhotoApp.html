@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatsPhotoApp</title>
+</head>
+
+<body>
+    <div>
+        <main>
+            <h1>CatPhotoApp</h1>
+            <h2>Cat Photos</h2>
+            <p>Se more
+                <a href="https://www.bing.com/search?pglt=41&q=cats+photo&cvid=7a65b00798ad47cc98cf1cb92db5afaa&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIECAEQADIECAIQADIECAMQADIECAQQADIECAUQADIECAYQADIECAcQADIGCAgQRRg80gEIMzI1OGowajGoAgCwAgA&FORM=ANNTA1&PC=WSEDDB"
+                    target="_blank">cat photos</a>
+                in our gallery.
+            </p>
+            <a href="https://www.bing.com/search?pglt=41&q=cats+photo&cvid=7a65b00798ad47cc98cf1cb92db5afaa&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIECAEQADIECAIQADIECAMQADIECAQQADIECAUQADIECAYQADIECAcQADIGCAgQRRg80gEIMzI1OGowajGoAgCwAgA&FORM=ANNTA1&PC=WSEDDB"
+                target="_blank">
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+                    alt="imagen-de-gatito-amarillo">
+            </a>
+            <section>
+                <h2>Cat Lists</h2>
+                <h3>Things cats love:</h3>
+                <ul>
+                    <li>Cat nip</li>
+                    <li>laser pointers</li>
+                    <li>Lasagna</li>
+                </ul>
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="imagen-de-lasagna">
+                    <figcaption>Cats <em>love</em> lasagna.</figcaption>
+                </figure>
+            </section>
+            <section>
+                <h2>Top 3 things cats hate:</h2>
+                <ol>
+                    <li>Flea treatment</li>
+                    <li>Thunder</li>
+                    <li>Other cats</li>
+                </ol>
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="imagen-de-gatitos">
+                    <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+                </figure>
+            </section>
+            <section>
+                <form action="catsPhotoApp.html" method="post">
+                    <fieldset>
+                        <legend>Is your cat an indoor or outdoor cat?</legend>
+                        <label for="indoor"><input type="radio" name="indoor-outdoor" id="indoor" checked>Indoor</label>
+                        <label for="outdoor"><input type="radio" name="indoor-outdoor" id="outdoor">Outdoor</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>What's your cat's personality</legend>
+                        <label for="loving"><input type="checkbox" name="personality" id="loving">Loving</label>
+                        <label for="lazy"><input type="checkbox" name="lazy" id="lazy">Lazy</label>
+                        <label for="energetic"><input type="checkbox" name="energetic" id="energetic">Energetic</label>
+                    </fieldset>
+                    <br>
+                    <input type="url" name="url" id="url" placeholder="Cat photo URL" required>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>No Copyright - 
+                <a href="">freecodecamp.org</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
